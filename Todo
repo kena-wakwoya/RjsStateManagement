@@ -1,0 +1,9 @@
+  Redux
+1. create action.
+2. create reducer
+3. create store.
+
+React-redux.
+1. create react app
+2. redux
+3. connect both using react-redux library
