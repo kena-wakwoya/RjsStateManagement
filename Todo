@@ -9,3 +9,20 @@ React-redux.
 2. redux
 3. connect both using react-redux library
 These are the plan for this weekend. 
+
+
+
+/*
+The three core concept in redux.
+Store :That holds the state of your application.
+Action : That describes the changes in the state of the application.
+
+Reducer : Which actually carries out the state transition depending on the action.
+
+The three principle in redux
+principle one: The state of ur whole application is stored in an object tree within single store.
+Principle Two: The only way to change the state is to emit an action, an object describing what happend.
+Princple Three : To specify how the state is transformed by actions, u write pure reducers.
+
+
+*/
