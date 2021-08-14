@@ -60,12 +60,10 @@ const fetchUsers = () => {
     axios
       .get("https://jsonplaceholder.typicode.com/users")
       .then((response) => {
-        // console.log(response.data);
         const users = response.data.map((user) => user.id);
         dispatch(fetchUsersSuccess(users));
       })
       .catch((error) => {
-        // console.log(eror.message);
         dispatch(fetchUsersFailure(error.message));
       });
   };
