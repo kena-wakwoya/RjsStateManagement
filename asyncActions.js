@@ -6,7 +6,7 @@ const axios = require("axios");
 
 const initialState = {
   loading: false,
-  users: [],
+  payloads: [],
   error: "",
 };
 
@@ -22,7 +22,7 @@ const fetchUsersRequest = () => {
 const fetchUsersSuccess = (users) => {
   return {
     type: FETCH_USERS_SUCCESS,
-    payload: users,
+    payload: payloads,
   };
 };
 const fetchUsersFailure = (error) => {
