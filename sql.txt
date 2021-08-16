@@ -1,0 +1,3 @@
+use new query to create new database.
+after being in the database u want( use databaseName or choice it from the dropdownlist), u can create table
+using create tableName(with params);
