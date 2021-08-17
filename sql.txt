@@ -1,3 +1,9 @@
 use new query to create new database.
 after being in the database u want( use databaseName or choice it from the dropdownlist), u can create table
 using create tableName(with params);
+
+
+POS/mPOs
+1. managing content on POS/mPOs.
+2. creating new Agent using POS/mPOs.
+3. cahs-in cash-out using POS/mPOs.

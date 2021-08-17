@@ -1,7 +1,8 @@
 const redux = require("redux");
-const createStore = redux.createStore;
+const createStore = redux.createStore; //the standard way to create action creator async.
 const applyMiddleWare = redux.applyMiddleware;
-const thankMiddleware = require("redux-thunk").default;
+const thankMiddleware = require("redux-thunk").default; // this is the middle ware
+//redux-thunk made the function creater to return function rather than object.
 const axios = require("axios");
 
 const initialState = {
