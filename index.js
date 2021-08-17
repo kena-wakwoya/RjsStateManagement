@@ -53,7 +53,7 @@ const iceCreamReducer = (state = initialIceCreamState, action) => {
       return state;
   }
 };
-
+//combine the reducers
 const rootReducer = combineReducer({
   cake: cakeReducer,
   iceCream: iceCreamReducer,
