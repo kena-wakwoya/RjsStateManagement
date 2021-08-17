@@ -3,8 +3,8 @@ const reduxLogger = require("redux-logger");
 
 const createStore = redux.createStore; // this creates store for our states
 const combineReducer = redux.combineReducers; //this is used to combine different reducers so that create store call the one containing all reduceres
-const applyMiddleWare = redux.applyMiddleware;
-const logger = reduxLogger.createLogger();
+const applyMiddleWare = redux.applyMiddleware; //help us to apply middle ware
+const logger = reduxLogger.createLogger(); // this is the middle ware we are going to use.
 
 const BUY_CAKE = "BUY_CAKE";
 
