@@ -68,4 +68,6 @@ store.dispatch(buyCake());
 
 store.dispatch(buyIceCream());
 store.dispatch(buyIceCream());
+store.dispatch(buyIceCream());
+store.dispatch(buyIceCream());
 unsubscribe();
