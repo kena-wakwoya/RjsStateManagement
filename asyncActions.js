@@ -70,7 +70,7 @@ const fetchUsers = () => {
   };
 };
 
-const store = createStore(reducer, applyMiddleWare(thankMiddleware));
+const store = createStore(reducer, applyMiddleWare(thankMiddleware)); //store with middleware
 store.subscribe(() => {
   console.log(store.getState()); //to get the stored state
 });
