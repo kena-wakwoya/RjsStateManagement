@@ -72,6 +72,6 @@ const fetchUsers = () => {
 
 const store = createStore(reducer, applyMiddleWare(thankMiddleware));
 store.subscribe(() => {
-  console.log(store.getState());
+  console.log(store.getState()); //to get the stored state
 });
 store.dispatch(fetchUsers());
